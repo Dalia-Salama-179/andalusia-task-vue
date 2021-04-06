@@ -1,0 +1,62 @@
+{
+  "name": "andalusia-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@progress/kendo-buttons-vue-wrapper": "^2021.1.224",
+    "@progress/kendo-data-query": "^1.5.4",
+    "@progress/kendo-dateinputs-vue-wrapper": "^2021.1.224",
+    "@progress/kendo-drawing": "^1.10.0",
+    "@progress/kendo-grid-vue-wrapper": "^2021.1.224",
+    "@progress/kendo-layout-vue-wrapper": "^2021.1.224",
+    "@progress/kendo-licensing": "^1.1.4",
+    "@progress/kendo-theme-default": "^4.35.0",
+    "@progress/kendo-ui": "^2021.1.225",
+    "@progress/kendo-vue-animation": "^2.1.5",
+    "@progress/kendo-vue-data-tools": "^2.1.5",
+    "@progress/kendo-vue-dateinputs": "^2.1.5",
+    "@progress/kendo-vue-dialogs": "^2.1.5",
+    "@progress/kendo-vue-dropdowns": "^2.1.5",
+    "@progress/kendo-vue-grid": "^2.1.5",
+    "@progress/kendo-vue-inputs": "^2.1.5",
+    "@progress/kendo-vue-intl": "^2.1.5",
+    "core-js": "^3.6.5",
+    "jquery": "^3.6.0",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.24.2",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

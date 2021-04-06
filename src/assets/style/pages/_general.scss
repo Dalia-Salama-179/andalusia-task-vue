@@ -1,0 +1,67 @@
+$danger: #ff0000;
+
+p {
+    margin: 0;
+}
+
+.text-danger {
+    color: $danger;
+}
+
+body {
+    background-color: #f3f9ff;
+    margin: 0;
+}
+
+.page-wrapper {
+    margin: 10px 15px;
+}
+
+.primary-btn.k-button {
+    background-color: #3f8cd6 !important;
+    color: #ffffff !important;
+    background-image: none !important;
+    border-radius: 5px !important;
+    padding: 8px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.page-title {
+    margin: 0 20px 15px;
+}
+
+.page-content {
+    background-color: #ffffff;
+    padding: 16px 60px;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.k-grid {
+    border: none !important;
+}
+
+.k-dropdown, .k-datepicker {
+    width: 100% !important;
+}
+
+.pointer-events-none {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.ar {
+    body {
+        direction: rtl;
+    }
+
+    th, td {
+        text-align: right !important;
+    }
+}

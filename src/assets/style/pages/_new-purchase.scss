@@ -1,0 +1,135 @@
+.new-purchase {
+    .sub-data-title {
+        border-bottom: 1px solid #d7e4f1;
+        padding-bottom: 10px;
+        color: #0c3c6b;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+
+        svg {
+            fill: #18d4d9;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+    }
+
+    label {
+        color: #62819f;
+        display: block;
+        margin-bottom: 10px;
+
+        span {
+            color: $danger;
+        }
+    }
+
+    .basic-info {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 25px -15px;
+
+        > div {
+            padding: 0 15px;
+            flex: 1;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        .drafts {
+            font-size: 13px;
+            margin: 8px;
+            display: flex;
+            align-items: center;
+
+            p {
+                margin: 0;
+            }
+
+            svg {
+                width: 16px;
+                height: 16px;
+                margin: 0 8px;
+            }
+
+            > div {
+                position: relative;
+            }
+
+            ul {
+                position: absolute;
+                list-style: none;
+                top: -14px;
+                right: 30px;
+                background: #fff;
+                box-shadow: 1px 1px 4px #ccc;
+                padding: 5px 40px 5px 10px;
+                display: none;
+            }
+        }
+    }
+
+    input {
+        background-color: #eff2f5;
+    }
+
+    .new-product-btn {
+        margin: 15px 0;
+        svg {
+            fill: #ffffff;
+            width: 20px;
+            height: 18px;
+            margin-right: 5px;
+        }
+    }
+
+    .buttons-wrapper {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: row-reverse;
+
+        button {
+            margin: 0 8px;
+            width: 110px;
+            background-image: none;
+            border-radius: 5px;
+
+            &.save {
+                background-color: #18d4d9;
+                color: #ffffff;
+            }
+
+            &.save-send {
+                background-color: #59ccaa;
+                color: #ffffff;
+            }
+        }
+    }
+
+    textarea {
+        border: none;
+        background: #f5f7f9;
+        padding: 4px 8px;
+        color: #656565;
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}
+
+.ar {
+    .new-purchase {
+        .sub-data-title svg {
+            margin-right: 0;
+            margin-left: 10px;
+        }
+        .new-product-btn {
+            flex-direction: row-reverse;
+        }
+    }
+}
